@@ -14,7 +14,7 @@ function About() {
           <div className="relative">
             <div className="aspect-square bg-white border-4 border-black neo-border overflow-hidden">
               <img
-                src="/IMG_7318.JPEG"
+                src="/l santos whip.png"
                 alt="Luiz Santos - Artista e Piloto"
                 className="w-full h-full object-cover"
               />
@@ -22,8 +22,8 @@ function About() {
 
             {/* Decorative Badge */}
             <div className="absolute -bottom-6 -right-6 bg-sixteen-orange text-black p-6 border-4 border-black neo-border-sm rotate-3">
-              <p className="font-display text-2xl">CAMPEÃO</p>
-              <p className="font-body font-bold text-sm uppercase tracking-wider">Downhill MG</p>
+              <p className="font-display text-2xl">CAMPEÃO MINEIRO</p>
+              <p className="font-body font-bold text-sm uppercase tracking-wider">DOWNHILL 2018</p>
             </div>
           </div>
 
@@ -41,15 +41,15 @@ function About() {
 
             <div className="space-y-6 font-body text-gray-700 leading-relaxed">
               <p>
-                <strong className="text-black">Perfeccionista e Campeão Mineiro de Downhill</strong>, uno a paixão pela velocidade com a precisão da arte em pintura automotiva de alta performance.
-              </p>
-
-              <p>
-                Cada projeto é tratado como uma obra única, onde a fibra de carbono encontra o verniz alto brilho, e a adrenalina do esporte se transforma em design exclusivo.
+                <strong className="text-black">Especialista em personalização de capacetes e componentes</strong>, Luiz Santos eleva o padrão da pintura personalizada. Com um olhar perfeccionista, cada projeto é tratado como uma obra de engenharia estética.
               </p>
 
               <p>
                 Com anos de experiência nas pistas e no ateliê, entendo o que um piloto precisa: <strong className="text-sixteen-orange">durabilidade, estilo e performance</strong>.
+              </p>
+
+              <p>
+                Utilizamos materiais de linha premium para garantir que o estilo e a qualidade sejam acompanhados por um verniz impecável e acabamento de nível profissional. Se você busca performance que se destaca, você busca a <strong className="text-sixteen-orange">Sixteen</strong>.
               </p>
             </div>
 
@@ -60,12 +60,12 @@ function About() {
                 <p className="font-body text-xs uppercase tracking-wider text-gray-600 mt-1">Handmade</p>
               </div>
               <div className="bg-white border-2 border-black p-4 text-center neo-border-sm">
-                <p className="font-display text-3xl text-sixteen-orange">MG</p>
-                <p className="font-body text-xs uppercase tracking-wider text-gray-600 mt-1">Campeão</p>
+                <p className="font-display text-3xl text-sixteen-orange">GARANTIA</p>
+                <p className="font-body text-xs uppercase tracking-wider text-gray-600 mt-1">100%</p>
               </div>
               <div className="bg-white border-2 border-black p-4 text-center neo-border-sm">
-                <p className="font-display text-3xl text-sixteen-orange">∞</p>
-                <p className="font-body text-xs uppercase tracking-wider text-gray-600 mt-1">Detalhes</p>
+                <p className="font-display text-3xl text-sixteen-orange">QUALIDADE</p>
+                <p className="font-body text-xs uppercase tracking-wider text-gray-600 mt-1">PROFISSIONAL</p>
               </div>
             </div>
           </div>

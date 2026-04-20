@@ -185,42 +185,42 @@ function Services() {
               exit={{ scale: 0.8, opacity: 0 }}
               transition={{ type: "spring", damping: 25, stiffness: 300 }}
               onClick={(e) => e.stopPropagation()}
-              className="relative w-full max-w-6xl mx-4"
+              className="relative w-full h-full flex flex-col items-center justify-center"
             >
               {/* Close Button */}
               <button
                 onClick={closeModal}
-                className="absolute -top-12 right-0 w-12 h-12 bg-sixteen-orange border-4 border-black flex items-center justify-center font-display text-2xl font-bold text-black hover:bg-black hover:text-sixteen-orange transition-all z-50"
+                className="absolute top-4 right-4 w-12 h-12 bg-sixteen-orange border-4 border-black flex items-center justify-center font-display text-2xl font-bold text-black hover:bg-black hover:text-sixteen-orange transition-all z-50"
               >
                 X
               </button>
 
-              {/* Main Image */}
+              {/* Main Image Container */}
               <div className="relative border-4 border-black bg-black/90">
                 <img
                   src={galleries[openGallery][currentImageIndex]}
                   alt={`Gallery image ${currentImageIndex + 1}`}
-                  className="w-full h-[70vh] object-contain"
+                  className="max-h-[70vh] w-auto object-contain z-40"
                 />
 
                 {/* Navigation Arrows */}
                 <button
                   onClick={prevImage}
-                  className="absolute left-4 top-1/2 -translate-y-1/2 w-12 h-12 bg-sixteen-orange border-4 border-black flex items-center justify-center font-display text-2xl font-bold text-black hover:bg-black hover:text-sixteen-orange transition-all"
+                  className="absolute left-4 top-1/2 -translate-y-1/2 w-12 h-12 bg-black/50 border-4 border-white flex items-center justify-center font-display text-2xl font-bold text-white hover:bg-sixteen-orange transition-all z-50"
                 >
                   ‹
                 </button>
 
                 <button
                   onClick={nextImage}
-                  className="absolute right-4 top-1/2 -translate-y-1/2 w-12 h-12 bg-sixteen-orange border-4 border-black flex items-center justify-center font-display text-2xl font-bold text-black hover:bg-black hover:text-sixteen-orange transition-all"
+                  className="absolute right-4 top-1/2 -translate-y-1/2 w-12 h-12 bg-black/50 border-4 border-white flex items-center justify-center font-display text-2xl font-bold text-white hover:bg-sixteen-orange transition-all z-50"
                 >
                   ›
                 </button>
               </div>
 
-              {/* Image Counter */}
-              <div className="flex justify-center mt-4 gap-2">
+              {/* Image Counter (Dots) */}
+              <div className="flex flex-row justify-center items-center mt-4 gap-2">
                 {galleries[openGallery].map((_, index) => (
                   <button
                     key={index}
@@ -235,7 +235,7 @@ function Services() {
               </div>
 
               {/* Category Title */}
-              <p className="text-center font-body text-sixteen-orange font-bold uppercase tracking-[0.2em] mt-4">
+              <p className="text-center font-body text-sixteen-orange font-bold uppercase tracking-[0.2em] mt-2">
                 {services.find(s => s.galleryKey === openGallery)?.title}
               </p>
             </motion.div>
