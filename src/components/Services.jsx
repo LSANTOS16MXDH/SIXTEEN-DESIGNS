@@ -220,12 +220,12 @@ function Services() {
               </div>
 
               {/* Image Counter (Dots) */}
-              <div className="flex flex-row justify-center items-center mt-4 gap-2">
+              <div className="flex flex-row flex-wrap justify-center items-center mt-4 gap-1 sm:gap-2 w-full px-4">
                 {galleries[openGallery].map((_, index) => (
                   <button
                     key={index}
                     onClick={() => setCurrentImageIndex(index)}
-                    className={`w-3 h-3 border-2 border-black transition-all ${
+                    className={`w-2 h-2 sm:w-3 sm:h-3 border-2 border-black transition-all ${
                       index === currentImageIndex
                         ? 'bg-sixteen-orange'
                         : 'bg-white hover:bg-gray-300'
