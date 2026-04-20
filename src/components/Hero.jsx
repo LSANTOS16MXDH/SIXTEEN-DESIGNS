@@ -54,36 +54,36 @@ function Hero() {
       {/* Camada 2: Conteúdo Sixteen Design */}
       <div className="relative z-10 container mx-auto px-4 text-center">
         {/* Tagline */}
-        <p className="font-body text-sixteen-orange font-bold uppercase tracking-[0.3em] mb-6 text-sm md:text-base">
+        <p className="font-body text-sixteen-orange font-bold uppercase tracking-[0.3em] mb-4 text-xs md:text-base">
           Performance • Estilo • Exclusividade
         </p>
 
         {/* Main Logo */}
-        <div className="mb-8">
+        <div className="mb-6">
           <img
             src="/SIXTEEN LG 2K26 PNG 1.png"
             alt="XVI DESIGN - A Arte da Velocidade"
-            className="max-w-[280px] md:max-w-[400px] lg:max-w-[500px] mx-auto"
+            className="max-w-[200px] md:max-w-[280px] lg:max-w-[400px] xl:max-w-[500px] mx-auto"
           />
         </div>
 
         {/* Subtitle */}
-        <p className="font-body text-xl md:text-3xl lg:text-4xl font-extrabold uppercase tracking-wider text-white mb-12">
+        <p className="font-body text-lg md:text-2xl lg:text-3xl xl:text-4xl font-extrabold uppercase tracking-wider text-white mb-8">
           PINTURAS PERSONALIZADAS
         </p>
 
         {/* Divider */}
-        <div className="flex items-center justify-center gap-4 mb-12">
-          <div className="w-16 md:w-32 h-1 bg-sixteen-orange"></div>
-          <div className="w-2 md:w-4 h-2 md:h-4 bg-black rotate-45"></div>
-          <div className="w-16 md:w-32 h-1 bg-sixteen-orange"></div>
+        <div className="flex items-center justify-center gap-4 mb-8">
+          <div className="w-12 md:w-24 lg:w-32 h-1 bg-sixteen-orange"></div>
+          <div className="w-2 md:w-3 lg:w-4 h-2 md:h-3 lg:h-4 bg-black rotate-45"></div>
+          <div className="w-12 md:w-24 lg:w-32 h-1 bg-sixteen-orange"></div>
         </div>
 
         {/* CTA Buttons */}
-        <div className="flex flex-col md:flex-row gap-4 justify-center">
+        <div className="flex flex-col md:flex-row gap-3 md:gap-4 justify-center px-4">
           <a
             href="#servicos"
-            className="bg-white px-8 py-4 font-body font-bold text-base uppercase tracking-widest border-4 border-black neo-border hover:bg-black hover:text-white hover:shadow-[12px_12px_0px_#FF5500] transition-all"
+            className="bg-white px-6 py-3 md:px-8 md:py-4 font-body font-bold text-sm md:text-base uppercase tracking-widest border-4 border-black neo-border hover:bg-black hover:text-white hover:shadow-[12px_12px_0px_#FF5500] transition-all"
           >
             Ver Trabalhos
           </a>
@@ -91,7 +91,7 @@ function Hero() {
             href="https://wa.me/5531988262640?text=Ol%C3%A1%20Luiz%2C%20quero%20um%20or%C3%A7amento%20da%20Sixteen%20Design!"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-white px-8 py-4 font-body font-bold text-base uppercase tracking-widest border-4 border-black neo-border hover:bg-sixteen-orange hover:border-sixteen-orange hover:text-white transition-all"
+            className="bg-white px-6 py-3 md:px-8 md:py-4 font-body font-bold text-sm md:text-base uppercase tracking-widest border-4 border-black neo-border hover:bg-sixteen-orange hover:border-sixteen-orange hover:text-white transition-all"
           >
             WhatsApp
           </a>
