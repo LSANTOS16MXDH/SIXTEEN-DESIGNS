@@ -8,7 +8,7 @@ function Footer() {
             <img
               src="/SIXTEEN LG 2K26 PNG 2.png"
               alt="Sixteen Design Logo"
-              className="h-16 md:h-20 mx-auto"
+              className="max-h-[50px] md:max-h-[80px] w-auto object-contain mx-auto"
             />
           </div>
 
@@ -65,10 +65,7 @@ function Footer() {
           {/* Copyright */}
           <div className="border-t border-gray-200 pt-8">
             <p className="font-body text-gray-400 text-sm">
-              © {new Date().getFullYear()} XVI DESIGN. Todos os direitos reservados.
-            </p>
-            <p className="font-body text-gray-500 text-xs mt-2">
-              Desenvolvido com perfeccionismo por Luiz Santos
+              © {new Date().getFullYear()} SIXTEEN DESIGNS. Todos os direitos reservados.
             </p>
           </div>
         </div>
